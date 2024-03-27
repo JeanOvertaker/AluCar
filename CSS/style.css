@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url('/ASSETS/capa.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 425px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1 1 auto;
+}
+header .a{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+header .a h1{
+    width: 70%;
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+header .b{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+header .b h2{
+    width: 70%;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    padding: 30px 0px 30px 0px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1 1 auto;
+    flex-direction: column;
+}
+.sobre h2{
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+   
+}
+.sobre p{
+    font-size: 15px;
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+}
+.sobre{
+    display: flex;
+    margin-bottom: 80px;
+    flex-grow: 1 1 auto;
+    flex-direction: column;
+    width: 70%;
+}
+.sobre div{
+    display: flex;
+    
+    padding: 10px 0px 0px 0px;
+    align-items: center;
+    flex-grow: 1 1 auto;
+    flex-wrap: wrap;
+    gap: 10px
+}
+.sobre div img{
+    width: 250px;
+}
+.before p{
+    border-left: 1px solid black;
+    padding-left: 5px;
+    
+}
+.contato{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1 1 auto;
+    height: 100px;
+    margin-bottom: 60px;
+}
+.contato div{
+    background-color: rgb(95, 0, 0);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contato div p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    text-align: left;
+}
+.form p{
+    padding: 20px 0px 25px 0px;
+}
+.form{
+   display: flex;
+   justify-content: left;
+   align-items: left;
+    width: 70%;
+    text-align: left;
+    width: 700px;
+    flex-grow: 1 1 auto;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    flex-grow: 1 1 auto;
+    
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+
+}
+fieldset legend{
+    margin: 10px;
+}
+fieldset{
+    margin: 10px;
+
+}
+fieldset div input{
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+}
+fieldset div select{
+    padding: 5px;
+    margin: 10px 5px 10px 5px;
+
+}
+
+ fieldset div label{
+    margin: 10px 5px 10px 5px;
+}
+form button{
+    width: 700px;
+    background-color: rgb(252, 57, 57);
+    color: white;
+    padding: 5px 0px 5px 0px;
+    border: 0px
+}
+footer{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 57, 57);
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    margin-top: 50px;
+    flex-grow: 1 1 auto;
+}
+@media (max-width:700px ){
+    form{
+        padding: 0px;
+
+    }
+    form div input{
+        padding: 0px;
+    }
+    form fieldset div {
+        padding: 10px;
+        margin: 0px;
+    }
+}
